@@ -1,0 +1,48 @@
+
+.table-area {
+    @apply flex flex-col justify-center;
+}
+
+.table-header {
+    @apply flex justify-start items-center mb-5 md:divide-x-2 md:divide-grey;
+}
+
+.table-th {
+    @apply text-black uppercase py-3 px-4 bg-blue border-grey border-2;
+}
+
+.table-td {
+    @apply text-black capitalize px-4 py-3 border-grey border-2;
+}
+
+
+.filters-list {
+    @apply flex justify-start items-center;
+}
+
+.filters-list li {
+    @apply flex items-center ml-5 cursor-pointer p-1;
+}
+
+.filters-list li:hover {
+    @apply bg-grey;
+}
+
+
+@media (max-width: 768px) {
+    .table-area {
+        @apply overflow-x-auto;
+    }
+
+    .table-header {
+        @apply flex-col; 
+    }
+
+    .table-th {
+        @apply w-full; 
+    }
+
+    .table-td {
+        @apply w-full; 
+    }
+}

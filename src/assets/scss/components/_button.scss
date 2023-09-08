@@ -1,0 +1,39 @@
+.btn-base {
+    @apply flex cursor-pointer items-center justify-center px-3 py-1 text-sm text-white rounded-md transition ease-in-out;
+}
+
+.btn-primary {
+    @apply bg-black;
+}
+
+.btn-primary:hover {
+    @apply bg-yellow text-black;
+}
+
+.btn-danger {
+    @apply bg-red-700;
+}
+
+.btn-danger:hover {
+    @apply bg-red-400 text-black;
+}
+
+.btn-success {
+    @apply bg-green-700;
+}
+
+.btn-success:hover {
+    @apply bg-blue text-black;
+}
+
+.btn-warning {
+    @apply text-black bg-yellow;
+}
+
+.btn-warning:hover {
+    @apply bg-blue;
+}
+
+.button-icon {
+    @apply mr-2;
+}

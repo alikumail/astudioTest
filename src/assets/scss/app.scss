@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  body {
+    @apply h-full ;
+  }
+  .main {
+    @apply min-h-screen w-full bg-white flex justify-center items-center;
+  }
+}
+@layer components {
+  @import "components/button";
+  @import "components/breadcrumbs";
+  @import "components/table";
+  @import "components/form";
+}
