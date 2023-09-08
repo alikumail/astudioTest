@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="main">
     <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
-      <h1 className="heading"><span className="company-name">ASTUDIO</span> Agency Test</h1>
+      <h1 className="heading flex flex-col"><span className="company-name">ASTUDIO</span> Agency Test</h1>
       
       <div className="flex flex-col md:flex-row justify-between">
         <a href="users" className="btn-base btn-primary mt-5">
