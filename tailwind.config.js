@@ -11,6 +11,9 @@ module.exports = {
             blue: '#c0e3e5',
             yellow: '#fdc936',
         },
+    fontFamily: {
+        'Neutra': ['Neutra', 'sans-serif'],
+      },
     },
 },
   plugins: [],
